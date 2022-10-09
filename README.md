@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
- Name :GURUPRASAD.N
- Roll no :212221230032
- Date of experiment :20/09/22
+1. Name :GURUPRASAD.B
+2. Roll no :212221230032
+3. Date of experiment :20/09/22
 
 
 
