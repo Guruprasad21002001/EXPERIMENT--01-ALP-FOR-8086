@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :GURUPRASAD.N
+Roll no :212221230032
+Date of experiment :AI&DS
 
 
 
@@ -78,25 +78,69 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+~~~
+MOV SI,1200h
+MOV CL,00h
+MOV AL,[SI]
+MOV BL,[SI+1]
+ADD Al,BL
+JNC L1
+INC CL
+L1:MOV [SI+2],AL
+MOV [SI+3],CL
+INT 03
+~~~
 ## Output  
  
+ ![img1](https://user-images.githubusercontent.com/95342910/194744207-9e27193d-faa9-4e51-96fd-d025debd457a.png)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+~~~
+MOV SI,1200h
+MOV CL,00h
+MOV AL,[SI]
+MOV BL,[SI+1]
+SUB Al,BL
+JNC L1
+INC CL
+L1:MOV [SI+2],AL
+MOV [SI+3],CL
+INT 03
+~~~~
 ## Output  
-## Multiplication alp 
- ## Output  
 
+![img2](https://user-images.githubusercontent.com/95342910/194744275-0f0ba16a-3bcc-48f0-9138-8006a2e85c79.png)
+
+## Multiplication alp 
+~~~
+MOV SI,1200H
+MOV AL,[SI]
+MOV BL,[SI+1]
+MUL BL
+MOV [SI+2],AL
+MOV [SI+3],AH
+INT 03
+~~~
+## Output  
+ 
+![img3](https://user-images.githubusercontent.com/95342910/194744314-b970bd89-00c9-4f0c-869c-22a20ce33924.png)
 
 ## Division alp 
-
+~~~
+MOV SI,1200H
+MOV AL,[SI]
+MOV BL,[SI+1]
+DIV BL
+MOV [SI+2],AL
+MOV [SI+3],AH
+INT 03
+~~~
 ## Output  
 
+![img4](https://user-images.githubusercontent.com/95342910/194744344-271e1455-819e-4be0-b96c-661ec25c827b.png)
 
 ## Result :
- 
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
 
 
 
